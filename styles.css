@@ -1,0 +1,92 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff0000; /* Red background color */
+    color: #ffffff; /* White text color */
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #666666;
+    margin-bottom: 40px;
+}
+
+.hero form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero input[type="text"],
+.hero button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+}
+
+.hero input[type="text"] {
+    width: 70%;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #ccc;
+}
+
+.hero button {
+    width: 30%;
+    background-color: #ff0000;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #ccc;
+}
+
+.hero button:hover {
+    background-color: #cc0000;
+}
